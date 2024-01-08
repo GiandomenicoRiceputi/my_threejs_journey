@@ -19,6 +19,9 @@ for creating the course. His teachings and guidance have been instrumental in my
 ## Let's Connect
 
 If you're also learning Three.js or have any suggestions, feel free to connect with me. Let's learn and grow together!
+['GiandoDev X'](https://twitter.com/Giando_Riceputi)
+['GiandoDev GitHub'](https://github.com/GiandomenicoRiceputi)
+['GiandoDev Site'](https://www.giando.dev/)
 
-## License
+
 
