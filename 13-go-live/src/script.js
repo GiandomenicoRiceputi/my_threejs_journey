@@ -37,7 +37,7 @@ fontLoader.load(
 
         // Text
         const textGeometry = new TextGeometry(
-            'Hello Three.js',
+            'Iris Rocks!',
             {
                 font: font,
                 size: 0.5,
