@@ -30,12 +30,12 @@ bakedShadow.colorSpace = THREE.SRGBColorSpace
  * Lights
  */
 // Ambient light
-const ambientLight = new THREE.AmbientLight(0x12D1F9, 0.02)
+const ambientLight = new THREE.AmbientLight(0xe0fff1, 0.02)
 gui.add(ambientLight, 'intensity').min(0).max(3).step(0.001)
 scene.add(ambientLight)
 
 // Directional light
-const directionalLight = new THREE.DirectionalLight(0xEC8EDD, 1.1)
+const directionalLight = new THREE.DirectionalLight(0xdbff9e, 1.1)
 directionalLight.position.set(2, 3, - 1)
 directionalLight.castShadow = true
 directionalLight.shadow.mapSize.width = 1024
@@ -60,7 +60,7 @@ scene.add(directionalLightCameraHelper)
 scene.add(directionalLight)
 
 // Spot light
-const spotLight = new THREE.SpotLight(0xffffff, 2.4, 10, Math.PI * 0.3)
+const spotLight = new THREE.SpotLight(0xb7ffdc, 2.4, 10, Math.PI * 0.3)
 
 spotLight.castShadow = true
 
@@ -78,7 +78,7 @@ spotLightCameraHelper.visible = false
 scene.add(spotLightCameraHelper)
 
 // Point light
-const pointLight = new THREE.PointLight(0xEC8EDD, 2.7)
+const pointLight = new THREE.PointLight(0xe4d00a, 1.5)
 
 pointLight.castShadow = true
 
